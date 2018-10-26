@@ -12,7 +12,7 @@ iteration_array=(1)
 row_stop_array=(700)
 num_factors_array=(40)
 col_stop_array=(20000)
-thr=(1 2 4 8 10 12 16) 
+thr=(16) 
 
 if [ ${results_dir} != '' ]
 then
@@ -33,7 +33,7 @@ for f in "${num_factors_array[@]}"
 	   for th in "${thr[@]}"
 	    do
 		export OMP_NUM_THREADS=1
-	    	${phylanx_dir}/bin/als_csv_instrumented --hpx:threads=${th} --data_csv=/phylanx-data/CSV/MovieLens_20m.csv  --hpx:bind=balanced --hpx:numa-sensitive --iterations=${it} --f=${f} --row_stop=${rs} --col_stop=${cs} --hpx:print-counter=/threads{locality#*/total}/idle-rate >> ${results_dir}/alsphx_${th}th_itrscs_${it}_${f}_${rs}_${cs}_tree
+	    	${phylanx_dir}/bin/als_csv_instrumented -i --hpx:threads=${th} --data_csv=/phylanx-data/CSV/MovieLens_20m.csv  --hpx:bind=balanced --hpx:numa-sensitive --iterations=${it} --f=${f} --row_stop=${rs} --col_stop=${cs} --hpx:print-counter=/threads{locality#*/total}/idle-rate >> ${results_dir}/alsphx_${th}th_itrscs_${it}_${f}_${rs}_${cs}_tree
 		echo "done ${th}_${it}_${f}_${rs}_${cs}_${th}"	
 	    done
 	done
