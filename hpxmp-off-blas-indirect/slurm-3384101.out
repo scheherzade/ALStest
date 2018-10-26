@@ -1,0 +1,78 @@
+This script is used to run als_csv_phylanx example
+tcmalloc: large alloc 3200000000 bytes == 0x1915e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0xd7d20000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b074000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x1915e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x1915e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b074000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b074000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x1915e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x1915e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b074000 @ 
+done 1_1_40_700_20000_1
+tcmalloc: large alloc 3200000000 bytes == 0x19a2e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0xd85f0000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b93c000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a2e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a2e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b93c000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b93c000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a2e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a2e000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b93c000 @ 
+done 2_1_40_700_20000_2
+tcmalloc: large alloc 3200000000 bytes == 0x18122000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0xd6ce4000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a004000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x18122000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x18122000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a004000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a004000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x18122000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x18122000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a004000 @ 
+done 4_1_40_700_20000_4
+tcmalloc: large alloc 3200000000 bytes == 0x193ae000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0xd7f70000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b266000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x193ae000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x193ae000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b266000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b266000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x193ae000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x193ae000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b266000 @ 
+done 8_1_40_700_20000_8
+tcmalloc: large alloc 3200000000 bytes == 0x1996a000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0xd852c000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b800000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x1996a000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x1996a000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b800000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b800000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x1996a000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x1996a000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b800000 @ 
+done 10_1_40_700_20000_10
+tcmalloc: large alloc 3200000000 bytes == 0x18368000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0xd6f2a000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a1f6000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x18368000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x18368000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a1f6000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a1f6000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x18368000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x18368000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19a1f6000 @ 
+done 12_1_40_700_20000_12
+tcmalloc: large alloc 3200000000 bytes == 0x198c2000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0xd8484000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b740000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x198c2000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x198c2000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b740000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b740000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x198c2000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x198c2000 @ 
+tcmalloc: large alloc 3200000000 bytes == 0x19b740000 @ 
+done 16_1_40_700_20000_16
