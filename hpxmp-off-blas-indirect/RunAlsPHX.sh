@@ -2,9 +2,9 @@
 
 echo "This script is used to run als_csv_phylanx example"
 module purge
-module load clang/6.0.0
-module load boost/1.67.0-clang6.0.0-release
-module load cmake/3.9.0
+module load clang/6.0.1
+module load boost/1.68.0-clang6.0.1-release
+module load cmake/3.10.2
 module load pybind11/2.2.4
 module load gperftools/2.7
 
@@ -16,7 +16,7 @@ iteration_array=(1)
 row_stop_array=(700)
 num_factors_array=(40)
 col_stop_array=(1000 10000 20000)
-thr=(1 2 4 8 10 12 16) 
+thr=(1 2 4 8 16) 
 
 if [ ${results_dir} != '' ]
 then
@@ -25,7 +25,9 @@ rm -rf ${results_dir}/*
 mkdir ${results_dir}/info
 cp ${phylanx_log_file} ${results_dir}/info/Description.txt
 date>> ${results_dir}/info/date.txt
-
+git --git-dir ~/src/blaze/.git log>>${results_dir}/info/blaze_git_log.txt
+git --git-dir ~/src/hpx/.git log>>${results_dir}/info/hpx_git_log.txt
+git --git-dir ~/src/phylanx/.git log>>${results_dir}/info/phylanx_git_log.txt
 
 for it in "${iteration_array[@]}"
 do

@@ -6,8 +6,8 @@ results_dir="/home/sshirzad/workspace/als/python/results"
 iteration_array=(1)
 row_stop_array=(700)
 num_factors_array=(40)
-col_stop_array=(10000)
-thr=(8 10 12 16 20)
+col_stop_array=(1000 10000 20000)
+thr=(1 2 4 8 16)
 
 if [ ${results_dir} != '' ]
 then
